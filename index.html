@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+
+</head>
+
+<body>
+<!-- Header Section Start -->
+    <div class="container mt-4">
+        <div class="row wrapper">
+            <div class="col-1">
+                <img src="img/Arrow.png" alt="arrow" class="arrow">
+            </div>
+            <div class="col-4">
+                <h5 class="team-text">My Team</h5>
+            </div>
+            <div class="offset-2 col-3">
+                <button class="timebtn">1h 26m left</button>
+            </div>
+            <div class="col-2 circle">
+                <img src="img/Questionmark.png" alt="questionmark" class="questionmark">
+            </div>
+        </div>
+    </div>
+<!-- Header Section End -->
+<!-- India Section Start -->
+    <div class="container mt-4">
+        <div class="row mt-2">
+            <div class="col-2">
+                <img src="img/India.png" alt="arrow" class="arrow">
+            </div>
+            <div class="col-4">
+                <h5 class="indiatext">India</h5>
+            </div>
+            <div class="col-2">
+                <button class="fournobtn">4</button>
+            </div>
+        </div>
+    </div>
+<!-- India Section End -->
+<!-- Newzealand Section Start -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/Newzealand.png" alt="arrow" class="arrow">
+            </div>
+            <div class="col-6">
+                <h5 class="newzealandtext">New Zealand</h5>
+            </div>
+            <div class="col-2">
+                <button class="threenobtn">3</button>
+            </div>
+        </div>
+    </div>
+<!-- Newzealand Section End -->
+<!-- Button & Toggle Section Start -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-3">
+                <button class="valuebtn"><span>45</span> Credit Left
+                    <progress id="file" value="45" max="100"> 45%</progress>
+                </button>
+
+            </div>
+            <div class="col-3">
+                <button class="playerbtn"><span>7/11</span> Players
+                    <progress id="file" value="55" max="100"> 55% </progress>
+                </button>
+            </div>
+            <div class="col-6">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="listclick()"><img src="img/List.png">
+                            List</button>
+                        <button type="button" class="toggle-btn" onclick="pitchclick()"><img src="img/Pitch.png">
+                            Pitch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Button & Toggle Section End -->
+<!-- Table Section Start -->
+    <div class="container row">
+        <div class="col-12 mt-4">
+            <table>
+                <tr class="headingtable">
+                    <th class="col-8">Players</th>
+                    <th>Points</th>
+                    <th>Credits</th>
+                </tr>
+                <tr>
+                    <td style="padding: 30px 0px 0px 10px;"><img src="img/_London-Spirit.png"></td>
+                    <td style="padding: 30px 0px 0px 10px;"><a>V kohli</a><br>
+                        <span>IND</span>
+                    </td>
+                    <td style="padding: 30px 0px 0px 10px;">325.5</td>
+                    <td style="font-weight: 800;color: #002947 !important;padding: 30px 0px 0px 10px;">11.5</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        <img src="img/_London-Spirit.png">
+                    </td>
+                    <td style="padding: 10px;"><a>R Sharma</a><br>
+                        <span>IND</span>
+                    </td>
+                    <td style="padding: 10px;">256.5</td>
+                    <td style="font-weight: 800;color: #002947 !important;padding: 10px;">10.5</td>
+                </tr>
+                <tr>
+                    <td><img src="img/_Manchester-Originals.png"></td>
+                    <td><a>J Neesham</a><br>
+                        <span>NZ</span>
+                    </td>
+                    <td>186.5</td>
+                    <td style="font-weight: 800;color: #002947 !important;">10.5</td>
+                </tr>
+                <tr>
+                    <td><img src="img/_Manchester-Originals.png"></td>
+                    <td><a>K Williamson</a><br>
+                        <span>NZ</span>
+                    </td>
+                    <td>386.5</td>
+                    <td style="font-weight: 800;color: #002947 !important;">10</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;"><img src="img/_London-Spirit.png"></td>
+                    <td style="padding: 10px;"><a>M Agarwal</a><br>
+                        <span>IND</span>
+                    </td>
+                    <td style="padding: 10px;">226.5</td>
+                    <td style="font-weight: 800;color: #002947 !important;padding: 10px;">9</td>
+                </tr>
+                <tr>
+                    <td><img src="img/_Manchester-Originals.png"></td>
+                    <td><a>M Guptill</a><br>
+                        <span>NZ</span>
+                    </td>
+                    <td>158</td>
+                    <td style="font-weight: 800;color: #002947 !important;">8.5</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<!-- Table Section End -->
+<!-- Badge & Continue Button Section Start -->
+    <div class="container row mt-4 badgesection">
+        <div class="offset-4 col-3">
+            <button type="button" class="btn btnorange position-relative">
+                <img src="img/Vector.png">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    3
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+        </div>
+        <div class="col-4">
+            <button type="button" class="btn continuebtn position-relative">Continue</button>
+        </div>
+    </div>
+<!-- Badge & Continue Button Section End -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

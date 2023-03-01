@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background: #002947;
+        overflow-x: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+/* Header Section Start */
+    .wrapper .team-text {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .wrapper .timebtn {
+        position: absolute;
+        width: 86px;
+        height: 23px;
+        background: #024B5C;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: right;
+        color: #FFFFFF;
+        padding: 10px;
+        gap: 10px;
+        border: none;
+        margin: 3px 0px 0px 0px;
+    }
+
+    .wrapper .circle {
+        width: 0px;
+        border: 2px solid #FFFFFF;
+        border-radius: 50%;
+        margin: 0px 0px 0px 15px;
+    }
+
+    .wrapper .questionmark {
+        width: 9px;
+        height: 12px;
+        position: relative;
+        margin: -4px 0px 0px -4px;
+    }
+/* Header Section End */
+/* India Section Start */
+    .indiatext {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: uppercase;
+        width: 33px;
+        height: 13px;
+        left: 68px;
+        top: 84.39px;
+    }
+
+    .fournobtn {
+        position: absolute;
+        width: 36px;
+        height: 16px;
+        left: 319px;
+        top: 80.39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+    }
+/* India Section End */
+/* Newzealand Section Start */
+    .newzealandtext {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        width: 87px;
+        height: 13px;
+        left: 68px;
+        top: 133.39px;
+    }
+
+    .threenobtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        position: absolute;
+        width: 36px;
+        height: 16px;
+        left: 319px;
+        top: 129.39px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 2px;
+        border: none;
+        height: 13px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+/* Newzealand Section End */
+/* Button & Toggle Section Start */
+    .valuebtn {
+        width: 82px;
+        height: 40px;
+        left: 20px;
+        top: 175px;
+        background: #024B5C;
+        border-radius: 4px;
+        border: none;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+
+    .valuebtn span {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+
+    .playerbtn {
+        width: 82px;
+        height: 40px;
+        background: #024B5C;
+        border-radius: 4px;
+        border: none;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+
+    .playerbtn span {
+        width: 71px;
+        height: 18.38px;
+        left: calc(50% - 71px/2 - 34px);
+        top: calc(50% - 18.38px/2 - 142.82px);
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+
+    #file {
+        width: 65%;
+    }
+
+    .button-box {
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        left: 215px;
+        top: 175px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 34px;
+    }
+
+    .toggle-btn {
+        padding: 12px 15px;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        text-align: center;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        color: #FFFFFF;
+    }
+
+    #btn {
+        position: absolute;
+        width: 70px;
+        height: 38px;
+        left: 216px;
+        top: 176px;
+        background: #E47C29;
+        border-radius: 34px;
+        left: 0;
+        top: 0;
+        transition: .5s;
+    }
+/* Button & Toggle Section End */
+/* Table Section Start */
+    table {
+        position: relative;
+        width: 355px;
+        height: 455px;
+        background: #FFFFFF;
+        border-radius: 6px;
+    }
+
+    table th {
+        padding: 7px 10px 0px 10px;
+    }
+
+    table tr td {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .headingtable {
+        position: absolute;
+        width: 343px;
+        height: 22px;
+        left: 6px;
+        top: 10px;
+        background: #E4E4E4;
+        border-radius: 45px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 9px;
+        color: #474747;
+    }
+
+    table tr:nth-child(3) {
+        position: relative;
+        top: 6px;
+        background: #E4E4E4;
+        border-radius: 45px;
+        color: #474747;
+    }
+
+    table tr:nth-child(6) {
+        position: relative;
+        width: 343px;
+        height: 22px;
+        left: 0px;
+        top: 6px;
+        background: #E4E4E4;
+        border-radius: 45px;
+        color: #474747;
+    }
+
+    table tr td a {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        color: #002947 !important;
+    }
+
+    table tr td span {
+        width: 21px;
+        height: 16px;
+        left: 56px;
+        top: calc(50% - 16px/2 + 9.5px);
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #5E7484;
+    }
+
+    table tr td {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        align-items: center;
+        color: #5E7484;
+    }
+/* Table Section End */
+/* Badge & Continue Button Section Start */
+    .badgesection {
+        margin-bottom: 25px;
+    }
+
+    .btnorange {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        width: 40px;
+        height: 40px;
+        background: #E47C29;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 22px;
+    }
+
+    .continuebtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        width: 145px;
+        height: 40px;
+        background: #E47C29;
+        border-radius: 4px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        order: 0;
+        flex-grow: 0;
+    }
+/* Badge & Continue Button Section End */
+}
